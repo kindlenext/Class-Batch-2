@@ -1,0 +1,15 @@
+.bg-color {
+  background-color: #004C3F;
+}
+
+.w-20 {
+  width: 20%;
+}
+
+.h-90 {
+  width: 95%;
+}
+
+.hov:hover {
+  text-decoration: underline !important;
+}
