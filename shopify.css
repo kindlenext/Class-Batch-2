@@ -1,15 +1,15 @@
-.bg-color {
-  background-color: #004C3F;
+.padding {
+  padding: 0px 260px;
 }
 
-.w-20 {
-  width: 20%;
+.fs-6 {
+  font-size: 20px !important;
 }
 
-.h-90 {
-  width: 95%;
+.pe-6 {
+  padding-right: 550px !important;
 }
 
-.hov:hover {
-  text-decoration: underline !important;
+.pe-7 {
+  padding-right: 350px;
 }
