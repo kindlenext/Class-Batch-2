@@ -13,3 +13,16 @@
 .pe-7 {
   padding-right: 350px;
 }
+
+.bg-yellow {
+  background-color: #FBF7ED;
+}
+
+.bg-green {
+  background-color: #01463a !important;
+  border-radius: 2px !important;
+}
+
+.bg-green:hover {
+  background-color: #056958;
+}
