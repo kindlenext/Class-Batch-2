@@ -1,0 +1,36 @@
+.header-area {
+  background-image: url(header-bg.png);
+  background-size: contain;
+  background-repeat: no-repeat;
+  background-position: center;
+  height: 110px;
+  position: absolute;
+  top: 0;
+  right: 0;
+  left: 0;
+  z-index: 100;
+}
+
+ul {
+  list-style: none;
+
+}
+
+.nav>li {
+  display: flex;
+  padding: 0;
+
+}
+
+.nav>li>a {
+  color: #fff;
+  font-size: 1em;
+  padding: 10px;
+  text-decoration: none;
+}
+
+
+
+.pad-1 {
+  padding-right: 15px !important;
+}
