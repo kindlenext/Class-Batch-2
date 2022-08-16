@@ -34,3 +34,34 @@ ul {
 .pad-1 {
   padding-right: 15px !important;
 }
+
+.fw-900 {
+  font-weight: 900 !important;
+}
+
+.fs-xl {
+  font-size: 64px !important;
+}
+
+.pink {
+  color: #DC8CDB
+}
+
+.pink-grad {
+  text-decoration: none;
+  color: #fff;
+  background: linear-gradient(to right, #F8C3D8, #DC8CDB);
+  padding: 12px 24px;
+  border-radius: 5px;
+  margin-top: 20px !important;
+  ;
+}
+
+.pink-grad:hover {
+  text-decoration: none;
+  color: #fff;
+}
+
+.pl-80 {
+  padding-left: 80px;
+}
