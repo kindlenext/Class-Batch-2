@@ -70,3 +70,20 @@ ul {
 .shad:hover {
   box-shadow: 0 0.5rem 1rem rgba(0, 0, 0, 0.15) !important;
 }
+
+.courses {
+  background-image: url(cta-bg.png);
+  background-repeat: no-repeat;
+  background-size: cover;
+  background-position: center center;
+  width: 100%;
+  padding: 180px 0;
+}
+
+.fw-800 {
+  font-weight: 900 !important;
+}
+
+.fs-l {
+  font-size: 54px !important;
+}
