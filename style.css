@@ -1,89 +1,28 @@
-.header-area {
-  background-image: url(header-bg.png);
-  background-size: contain;
-  background-repeat: no-repeat;
-  background-position: center;
-  height: 110px;
-  position: absolute;
-  top: 0;
-  right: 0;
-  left: 0;
-  z-index: 100;
+.foot {
+  background-color: #002E25;
+  color: #fff;
 }
 
-ul {
-  list-style: none;
-
-}
-
-.nav>li {
+.row>ul>li>a {
   display: flex;
-  padding: 0;
-
-}
-
-.nav>li>a {
   color: #fff;
-  font-size: 1em;
-  padding: 10px;
   text-decoration: none;
+  font-size: 17px;
+  border-bottom: #002E25 solid 2px;
 }
 
-
-
-.pad-1 {
-  padding-right: 15px !important;
-}
-
-.fw-900 {
-  font-weight: 900 !important;
-}
-
-.fs-xl {
-  font-size: 64px !important;
-}
-
-.pink {
-  color: #DC8CDB
-}
-
-.pink-grad {
-  text-decoration: none;
+.row>ul>li>a:hover {
+  display: flex;
   color: #fff;
-  background: linear-gradient(to right, #F8C3D8, #DC8CDB);
-  padding: 12px 24px;
-  border-radius: 5px;
-  margin-top: 20px !important;
-  ;
-}
-
-.pink-grad:hover {
   text-decoration: none;
+  border-bottom: #fff solid 2px;
+  font-size: 17px;
+}
+
+.white-500 {
+  color: #b6babf;
+}
+
+.white-500:hover {
   color: #fff;
-}
-
-.pl-80 {
-  padding-left: 80px;
-}
-
-
-.shad:hover {
-  box-shadow: 0 0.5rem 1rem rgba(0, 0, 0, 0.15) !important;
-}
-
-.courses {
-  background-image: url(cta-bg.png);
-  background-repeat: no-repeat;
-  background-size: cover;
-  background-position: center center;
-  width: 100%;
-  padding: 180px 0;
-}
-
-.fw-800 {
-  font-weight: 900 !important;
-}
-
-.fs-l {
-  font-size: 54px !important;
 }
