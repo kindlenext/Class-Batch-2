@@ -1,11 +1,11 @@
-function Card() {
+function Card(props) {
   return (
     <div className="card w-25">
-      <img src="https://www.xda-developers.com/files/2018/06/pubg.jpg" className="card-img-top" alt="pubg" />
+      <img src={props.img} className="card-img-top" alt={props.alt} />
       <div className="card-body">
-        <h5 classNameName="card-title">Card title</h5>
-        <p className="card-text">Some quick example text to build on the card title and make up the bulk of the card's content.</p>
-        <a href="https://meet.google.com/nzy-dsxz-vsg" className="btn btn-primary">Go somewhere</a>
+        <h5 classNameName="card-title text-uppercase">{props.title}</h5>
+        <p className="card-text">{props.para}</p>
+        <a href={props.url} className="btn btn-primary">{props.linktext}</a>
       </div>
     </div>
   )
