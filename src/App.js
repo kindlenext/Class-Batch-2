@@ -15,7 +15,7 @@ function App() {
       />
 
       <Card
-        img="https://www.gamespot.com/a/uploads/scale_landscape/mig/6/8/4/4/2286844-gtalogo-big_61199_screen.jpg"
+        img="https://wallpaperaccess.com/full/899965.jpg"
         title="Grand Theft Auto V"
         para="Grand Theft Auto V and GTA Online — now upgraded for PlayStation 5 and Xbox Series ... Story Mode adventure and the dynamic, ever-evolving online world of GTA."
         link="https://www.rockstargames.com/gta-v"
