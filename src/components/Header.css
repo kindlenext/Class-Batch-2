@@ -1,0 +1,21 @@
+.sec-link {
+  list-style: none;
+  display: flex;
+}
+
+.sec-link>a>li {
+  padding: 0px 24px !important;
+  color: #ABBAC1;
+}
+
+.color {
+  color: #ABBAC1;
+}
+
+a {
+  text-decoration: none;
+}
+
+.bg-light {
+  background-color: aliceblue;
+}
